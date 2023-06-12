@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <style type="text/css">
+     #elemento_pai{
+            width: 300px;
+            height: 300px;
+            background-color: #ccc;
+        }
+        .posrelativa{
+            position: relative;
+            width: 150px;
+            height: 50px;
+        }
+        .vermelho{
+            background-color: red;
+        }
+        .azul{
+            background-color: blue;
+        }
+        .top50{
+            top: 50px;
+        }        
+    </style>
+</head>
+<body>
+    <div id="elemento_pai">
+        <div class="posrelativa azul">01</div>
+        <div class="posrelativa vermelho">02</div>
+        <div class="posrelativa azul top50">03</div>
+    </div>
+</body>
+</html>
